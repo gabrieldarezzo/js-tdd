@@ -1,7 +1,7 @@
 {
   "name": "tdd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Open you command \r ```\r cd \\wamp\\www\\  \r mkdir <PASTA_DO_PROJETO>  \r cd <PASTA_DO_PROJETO>  \r npm init  \r ```",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -17,5 +17,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieldarezzo/tdd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrieldarezzo/tdd/issues"
+  },
+  "homepage": "https://github.com/gabrieldarezzo/tdd#readme"
 }

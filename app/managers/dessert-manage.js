@@ -7,7 +7,7 @@ angular.module('desserts', []).value('DessertValues', {
 });
 
 
-angular.module('desserts', []).value('DessertManager', 
+angular.module('desserts').factory('DessertManager', 
 	['DessertValues',
 		function(dessertValues){
 			return {
@@ -18,5 +18,5 @@ angular.module('desserts', []).value('DessertManager',
 				}
 			};
 		}
-	];
+	]
 );
