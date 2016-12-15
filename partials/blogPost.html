@@ -1,0 +1,22 @@
+<div ng-include src="'partials/menu.html'"></div> 
+<div id="container" class="container" style="padding-top: 50px;"> 
+	<!--
+    	<div class="blog-post-label">Blog Entry</div>
+    -->
+    <div class="blog-entry-wrapper">
+    	<h1 style="text-align: center">{{blogEntry.introText}}</h1>
+
+        <div class="blog-intro-text">
+            Posted: {{blogEntry.date| date:'MM/dd/yyyy @ h:mma'}}
+        </div>
+        <div class="blog-entry-outer">            
+            {{blogEntry.blogText}}
+        </div>
+        <div class="blog-comment-wrapper">
+            <div class="blog-comment-label">Blog Comments</div>
+            <div class="blog-entry-comments"  ng-repeat="comment in blogEntry.comments">
+                {{comment.commentText}}
+            </div>
+        </div>
+    </div>
+</div>
